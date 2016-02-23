@@ -1,7 +1,7 @@
 {
-  "name": "sample-express",
+  "name": "sample-react",
   "version": "1.0.0",
-  "description": "sample express server",
+  "description": "react component on express server",
   "main": "build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mwarnsley/sample-express.git"
+    "url": "git+https://github.com/mwarnsley/sample-react.git"
   },
   "author": "Marcus Warnsley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mwarnsley/sample-express/issues"
+    "url": "https://github.com/mwarnsley/sample-react/issues"
   },
-  "homepage": "https://github.com/mwarnsley/sample-express#readme",
+  "homepage": "https://github.com/mwarnsley/sample-react#readme",
   "dependencies": {
     "express": "^4.13.4"
   },
   "devDependencies": {
+    "6to5ify": "^4.1.1",
+    "browserify": "^13.0.0",
     "gulp": "^3.9.1",
-    "gulp-newer": "^1.1.0"
+    "gulp-newer": "^1.1.0",
+    "react": "^0.14.7",
+    "watchify": "^3.7.0"
   }
 }
